@@ -1,0 +1,26 @@
+{
+  "name": "svelte-track-outboundlink",
+  "version": "1.0.0",
+  "description": "Svelte component for tracking outbound links in analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikachan/svelte-track-outboundlink.git"
+  },
+  "keywords": [
+    "svelte",
+    "analytics",
+    "gtag",
+    "outbound",
+    "link"
+  ],
+  "author": "Sarah Norris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikachan/svelte-track-outboundlink/issues"
+  },
+  "homepage": "https://github.com/mikachan/svelte-track-outboundlink#readme"
+}
