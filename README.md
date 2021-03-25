@@ -12,5 +12,5 @@ npm i svelte-track-outboundlink
 Use component in place of anchor tag:
 
 ```html
-<OutboundLink href="https://www.google.com/" class="example">Example Link</OutboundLink>
+<OutboundLink href="https://www.example.com/" class="example">Example Link</OutboundLink>
 ```
