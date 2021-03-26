@@ -5,7 +5,7 @@
 
 Svelte component for tracking outbound links in analytics.
 
-Currently works with Google Tag Manager (gtag.js).
+Currently works with [Google Tag Manager (gtag.js)](https://developers.google.com/analytics/devguides/collection/gtagjs). Package assumes that you have already installed gtag.js.
 
 ## Install
 
@@ -13,14 +13,14 @@ Currently works with Google Tag Manager (gtag.js).
 npm i svelte-track-outboundlink -D
 ```
 
+The `OutboundLink` component will be output as an anchor tag. When clicked it will fire a [gtag.js event](https://developers.google.com/analytics/devguides/collection/gtagjs/events) with the following properties:
+
+- Action: `click`
+- Category: `outbound`
+- Label: the `href` prop value
+- Transport type: `beacon`
+
 ## Usage
-
-The `OutboundLink` component will be output as an anchor tag. When clicked it will fire a [gtag.js](https://developers.google.com/analytics/devguides/collection/gtagjs/events) event with the following properties:
-
-- Action: 'click'
-- Category: 'outbound'
-- Label: the `href` value
-- Transport type: beacon
 
 Import the component and use it in place of an anchor tag when linking to external pages:
 
