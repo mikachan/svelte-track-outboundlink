@@ -4,6 +4,7 @@
   "description": "Svelte component for tracking outbound links in analytics.",
   "main": "index.js",
   "scripts": {
+    "publish": "npx np",
     "test": "jest"
   },
   "repository": {
