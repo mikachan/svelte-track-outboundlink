@@ -1,7 +1,14 @@
 <script lang="ts">
-	export let href: string = 'javascript:void(0);';
-	export let target: string = undefined;
-	export let rel: string = undefined;
+    /** @restProps {a} */
+
+     /** @type {string} */
+    export let href = 'javascript:void(0);';
+
+    /** @type {string} */
+    export let target = undefined;
+
+    /** @type {string} */
+    export let rel = undefined;
 
 	function trackLink() {		
 		if (typeof window !== 'undefined' && typeof (window as any).gtag !== 'undefined') {
