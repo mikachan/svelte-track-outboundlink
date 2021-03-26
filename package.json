@@ -1,6 +1,6 @@
 {
   "name": "svelte-track-outboundlink",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Svelte component for tracking outbound links in analytics.",
   "main": "index.js",
   "scripts": {
