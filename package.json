@@ -18,7 +18,7 @@
     "outbound",
     "link"
   ],
-  "author": "Sarah Norris",
+  "author": "Sarah Norris <sarah@sekai.co.uk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikachan/svelte-track-outboundlink/issues"
